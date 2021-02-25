@@ -13,7 +13,7 @@ jobs:
   - stage: test
     name: linux
     before_script:
-    - eval "$(gimme 1.11.4)"
+    - eval "$(gimme 1.15.8)"
     script:
     - make copyright
     - git diff --exit-code
